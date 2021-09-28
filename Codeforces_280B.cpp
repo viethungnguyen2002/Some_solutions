@@ -26,3 +26,4 @@ int main()
         st.push(array[i]);
     }
     cout << ans << endl;
+}
