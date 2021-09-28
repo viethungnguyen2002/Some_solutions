@@ -1,3 +1,30 @@
+/*solution and example:
+-if all digits are sorted descending order, then ouput is always "Not Possible"
+-if all digits is in acsending order, then just need to swap the last 2 digits
+
+1 4 7 4 6 8 4 1 2 6
+6
+2 < 6
+=> pivot = 9
+stack <2>
+6 > 2 
+break;
+swap(6,2);
+sort(6);
+=> 1474684162
+6 8 7
+7
+8 > 7
+6 < 8
+break
+pivot = 0
+clear stack
+stack <8>
+7 < 8
+stack <8,7>
+swap (6,7)
+sort(8,6)
+768*/
 #include <bits/stdc++.h>
 using namespace std;
 int main()
