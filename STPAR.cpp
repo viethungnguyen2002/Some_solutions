@@ -4,7 +4,7 @@ and stack must be a decreasing monotonic stack
 -example:
 5
 5 1 2 4 3
-first we i = 1
+first our i = 1
 array[0] = 5
 => stack <5>
 array[1] = 1 = i
