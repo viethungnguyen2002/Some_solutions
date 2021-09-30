@@ -1,3 +1,28 @@
+/*-we need to know the rule of this problem
+if the truck is not in its order, it must be in stack
+and stack must be a decreasing monotonic stack
+-example:
+5
+5 1 2 4 3
+first we i = 1
+array[0] = 5
+=> stack <5>
+array[1] = 1 = i
+i++
+array[2] = 2 = i
+i++
+array[3] = 4
+check 4 < 5
+=> stack <4,5>
+array[4] = 3
+i++
+check st.top = i = 4
+st.pop
+=> stack<5>
+check st.top = i = 5
+st.pop
+i == 5 => yes*/
+
 #include <iostream>
 #include <stack>
 using namespace std;
